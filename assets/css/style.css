@@ -138,6 +138,7 @@ p {
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     align-items: flex-end;
+    
 }
 
 .project-1 {
@@ -175,8 +176,8 @@ p {
 }
 
 .project-4 {
-    grid-column: 2 / 3;
-    grid-row: 3;
+    grid-column: 3;
+    grid-row: 2;
     background-image: url(../images/placeholder.jpg);
     background-size: cover;
     background-position: 75% 50%;
@@ -225,3 +226,57 @@ p {
     text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+    .title h2{
+        font-size: 25px;
+    }
+
+    .project-1 {
+        height:220px;
+        width: 500px;
+        background-size: cover;
+    }
+    
+@media screen and (max-width: 768px) {
+    .project-1 {
+        background-size: cover;
+        width: 395px;
+        height: 235px;
+    }
+
+    .project-2 {
+        background-size: cover;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {}
+    .title h2 {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .project-1 {
+        width: 290px;
+    }
+
+    .run{
+        width: 38%;
+    }
+
+    .contact-me a {
+        font-size: 13px;
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+
+    header a {
+        font-size: 25px;
+    }
+}
