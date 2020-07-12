@@ -81,8 +81,8 @@ section {
 #hero {
     background-image: url(../images/coding.jpg);
     width: 100%;
-    background-attachment: fixed;
-    display: flex;
+    background-attachment: cover;
+    display: fixed;
     flex-wrap: wrap;
     justify-content: flex-end;
     height: 300px;
@@ -153,6 +153,12 @@ section {
     border: darkblue 2px solid;
 }
 
+.group-1 {
+    background-image: url(../images/barkeep.jpg);
+    border: darkblue 2px solid;
+    
+}
+
 .img {
     background-size: cover;
     height: 150px;
@@ -198,4 +204,8 @@ section {
 
 .project-title1 {
     font-weight: bold;
+}
+
+.group-title {
+    top: 100px;
 }
